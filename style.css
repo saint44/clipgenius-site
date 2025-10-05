@@ -1,0 +1,21 @@
+body {margin:0; font-family: Arial, sans-serif; color:#333; line-height:1.6;}
+.navbar {display:flex; justify-content:space-between; align-items:center; padding:1rem 2rem; background:#fff; border-bottom:1px solid #eee;}
+.logo {height:40px;}
+.nav-links {list-style:none; display:flex; gap:1rem; margin:0; padding:0;}
+.nav-links a {text-decoration:none; color:#333; font-weight:bold;}
+.nav-links a:hover {color:#2f80ed;}
+.hero {background:#f5f9ff; padding:4rem 2rem; text-align:center;}
+.hero h1 {font-size:2.5rem; margin-bottom:0.5rem;}
+.hero p {font-size:1.2rem; margin-bottom:1.5rem; max-width:600px; margin:auto;}
+.btn {background:#2f80ed; color:#fff; padding:0.8rem 1.5rem; border-radius:5px; text-decoration:none; display:inline-block;}
+.btn:hover {background:#1f6bd8;}
+.section {padding:3rem 2rem; text-align:center;}
+.steps {display:flex; gap:2rem; justify-content:center; flex-wrap:wrap;}
+.step {max-width:300px; margin:1rem;}
+.step h3 {color:#2f80ed;}
+.pricing-plans {display:flex; gap:2rem; justify-content:center; flex-wrap:wrap; margin-top:1rem;}
+.plan {border:1px solid #eee; padding:2rem; border-radius:8px; width:280px; background:#fff; box-shadow:0 2px 4px rgba(0,0,0,0.05);}
+.plan h3 {margin-top:0;}
+.price {font-size:1.5rem; color:#2f80ed; margin:0.5rem 0;}
+.contact {background:#f5f9ff;}
+.footer {padding:1rem 2rem; text-align:center; background:#fff; border-top:1px solid #eee; margin-top:2rem; font-size:0.9rem; color:#666;}
