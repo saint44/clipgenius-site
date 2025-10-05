@@ -60,7 +60,12 @@
   <section id="contact" class="section contact">
     <h2>Get In Touch</h2>
     <p>Email us at <a href="mailto:info@clipgenius.com">info@clipgenius.com</a> or fill out our form to discuss your content goals.</p>
-    <p><em>(Placeholder for sign-up form; create a Google Form and embed it here.)</em></p>
+    <form class="contact-form" action="https://formsubmit.co/info@clipgenius.com" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Tell us about your content needs" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
   </section>
   <footer class="footer">
     <p>&copy; 2025 ClipGenius. All rights reserved.</p>

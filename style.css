@@ -19,3 +19,41 @@ body {margin:0; font-family: Arial, sans-serif; color:#333; line-height:1.6;}
 .price {font-size:1.5rem; color:#2f80ed; margin:0.5rem 0;}
 .contact {background:#f5f9ff;}
 .footer {padding:1rem 2rem; text-align:center; background:#fff; border-top:1px solid #eee; margin-top:2rem; font-size:0.9rem; color:#666;}
+
+/* Contact Form Styles */
+.contact-form {
+  max-width: 600px;
+  margin: 1rem auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.contact-form button {
+  padding: 0.75rem;
+  font-size: 1rem;
+  background-color: #2f80ed;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #1f6bb8;
+}
