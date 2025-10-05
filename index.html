@@ -29,11 +29,33 @@
     </div>
   </nav>
   <!-- Hero section -->
-  <section class="hero d-flex align-items-center text-center text-light" style="min-height: 100vh; background: #0d6efd;">
+>
+<section class="hero d-flex align-items-center text-light" style="min-height: 100vh; background: #0d6efd;">
     <div class="container">
-      <h1 class="display-4 fw-bold mb-3">Repurpose Your Content Effortlessly</h1>
-      <p class="lead mb-4">Transform long-form videos and podcasts into bite-sized, shareable clips using AI-powered automation.</p>
-      <a href="#pricing" class="btn btn-outline-light btn-lg">View Plans</a>
+      <div class="row align-items-center text-center">
+        <!-- Left video -->
+        <div class="col-md-4 d-none d-md-block">
+          <video class="w-100 rounded shadow-sm" autoplay muted loop playsinline>
+            <!-- Updated path: studio.mp4 is at the project root -->
+            <source src="studio.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <!-- Hero text -->
+        <div class="col-md-4 py-5">
+          <h1 class="display-4 fw-bold mb-3">Repurpose Your Content Effortlessly</h1>
+          <p class="lead mb-4">Transform long‑form videos and podcasts into bite‑sized, shareable clips using AI‑powered automation.</p>
+          <a href="#pricing" class="btn btn-outline-light btn-lg">View Plans</a>
+        </div>
+        <!-- Right video -->
+        <div class="col-md-4 d-none d-md-block">
+          <video class="w-100 rounded shadow-sm" autoplay muted loop playsinline>
+            <!-- Use the same studio clip on the right; update path now points to the root file -->
+            <source src="studio.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
     </div>
   </section>
 
